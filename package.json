@@ -1,0 +1,51 @@
+{
+	"name": "@itcig/typescript-config",
+	"version": "1.2.3",
+	"license": "MIT",
+	"description": "Shareable TypeScript configs for all @itcig projects",
+	"author": {
+		"name": "ITCIG",
+		"email": "it@capinfogroup.com"
+	},
+	"homepage": "https://github.com/itcig/typescript-config#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/itcig/typescript-config.git"
+	},
+	"main": "tsconfig.json",
+	"module": "tsconfig.json",
+	"files": [
+		"monorepo.json",
+		"no-type-gen.json",
+		"tsconfig.json"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {},
+	"peerDependencies": {
+		"tslib": "^1.10.0",
+		"typescript": "^3.7.5"
+	},
+	"bugs": {
+		"url": "https://github.com/itcig/itcig/issues"
+	},
+	"keywords": [
+		"bundling",
+		"commonjs",
+		"devest",
+		"esmodules",
+		"monorepo",
+		"resolve",
+		"rollup",
+		"tsconfig",
+		"typescript"
+	],
+	"extra": {
+		"autotagger": true,
+		"autorelease": true,
+		"npmjs-autopublish": true,
+		"mirror-repo": "itcig/typescript-config"
+	},
+	"tsconfig": "tsconfig.json"
+}
